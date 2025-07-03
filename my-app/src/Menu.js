@@ -18,7 +18,8 @@ function Menu() {
             <ul>
               <li><Link to="/">Home</Link></li>
               <li><Link to="/sobre">Sobre</Link></li>
-              <li><Link to="/teste">Teste</Link></li>           
+              <li><Link to="/teste">Teste Estado</Link></li>
+              <li><Link to="/teste2">Teste Efeito</Link></li>           
             </ul>
         </nav>
     </div>

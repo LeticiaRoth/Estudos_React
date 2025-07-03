@@ -18,6 +18,9 @@ import Sobre from './Sobre';
 //Importo a página de Teste
 import Teste from './Teste';
 
+//Importo a página de Teste 
+import Teste2 from './Teste2';
+
 function App() {
   return (
     <Router>
@@ -29,6 +32,7 @@ function App() {
           <Route path="/" element={<Home/>}/>
           <Route path="/sobre" element={<Sobre/>}/>
           <Route path='/teste' element={<Teste/>}/>
+          <Route path="/teste2" element={<Teste2/>}/>
         </Routes>
       </div>
     </Router>
