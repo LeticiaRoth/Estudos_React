@@ -1,25 +1,40 @@
+/* Container principal */
+.Menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* separa logo da nav */
+  padding: 15px 25px;
+  background-color: rgb(3, 4, 80);
+
+}
+
+/* Logo */
+.menuLogo img {
+  width: 40px; /* ou o tamanho que preferir */
+  height: auto;
+}
+
 .menuSite {
-    background-color: rgb(43, 3, 80);
-    padding: 15px 25px;
-    text-align: center;
+  margin-left: auto; /* empurra para o lado direito */
 }
 
+/* Menu */
 .menuSite ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    gap: 50px;
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 40px;
 }
 
+/* Links */
 .menuSite a {
-    color: #fff;
-    text-decoration: none;
-    transition: color 0.3s;
-    font-weight: 500;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
 }
 
 .menuSite a:hover {
-    color: #cc74e7;
+  color: #b7e7ebe0;
 }
