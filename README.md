@@ -1,7 +1,7 @@
 
 # Repositório de Estudos em React
 <p align="center">
-  <img src="Logo_React\React.png" alt="Ícone do React" width="140">
+  <img src="Logo_React\React2.png" alt="Ícone do React" width="140">
 </p>
 
 Este repositório reúne uma coleção de atividades e componentes desenvolvidos com **React**, com foco em conceitos fundamentais da biblioteca, como componentes funcionais, hooks, gerenciamento de estado, roteamento e integração com APIs.
